@@ -1,0 +1,3 @@
+# slice和substring、substr的区别
+1. slice和substring传start和end参数，substr的第二个参数是length
+2. 它们对于负数的处理不同，slice会把所有负数加上字符串的长度，substring会把所有负数视为0，substr会把负的第一个参数加上字符串长度，第二个负数转换为0
